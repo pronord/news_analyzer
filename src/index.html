@@ -5,13 +5,228 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Analyzer</title>
+    <link rel="icon" href="<%=require('./images/favicon.png')%>">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 
-<body>
+<body class="body">
+    <div class='root'>
+        <header class="header content">
+            <h1 class="logo">NewsAnalyzer</h1>
+            <nav class="navigation">
+
+                <li class="navigation__item navigation__item_active">
+                    <a href="#" class="navigation__link navigation__link_active">Главная</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">О проекте</a>
+                </li>
+
+            </nav>
+        </header>
+
+        <section class="search content">
+            <div class="search__content">
+                <h2 class="search__title">Что в мире творится?</h2>
+                <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+                <form class="search__line">
+                    <input class="search__input" placeholder="Введите тему новости">
+                    <button class="search__button">Искать</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="load">
+        <div class="content">
+            <i class="load__circle"></i>
+            <p class="load__text">Идет поиск новостей...</p>
+        </div>
+    </section>
+
+    <section class="not-found">
+        <div class="content">
+            <img src="<%=require('./images/icons/not-found.svg')%>" class="not-found__pic">
+            <h3 class="not-found__title">Ничего не найдено</h3>
+            <p class="not-found__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="content">
+            <div class="news__content">
+
+                <div class="news__header">
+                    <h3 class="news__title">Результаты поиска</h3>
+                    <a href="#" class="news__link">Посмотреть аналитику ></a>
+                </div>
+
+                <div class="cards-wrapper">
+                    <a href="#" target="_balnk" class="cards-wrapper__link">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="<%=require('./images/cards/01.jpg')%>" class="card__im">
+                            </div>
+
+                            <div class="card__content">
+                                <div class="card__content-wrapper">
+                                    <p class="card__date">2 августа, 2019</p>
+                                    <h4 class="card__title">Национальное достояние - парки</h4>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                </div>
+                                <p class="card__src">медуза</p>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="#" target="_balnk" class="cards-wrapper__link">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="<%=require('./images/cards/02.jpg')%>" class="card__im">
+                            </div>
+
+                            <div class="card__content">
+                                <div class="card__content-wrapper">
+                                    <p class="card__date">2 августа, 2019</p>
+                                    <h4 class="card__title">Национальное достояние - парки</h4>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                </div>
+                                <p class="card__src">медуза</p>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="#" target="_balnk" class="cards-wrapper__link">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="<%=require('./images/cards/03.jpg')%>" class="card__im">
+                            </div>
+
+                            <div class="card__content">
+                                <div class="card__content-wrapper">
+                                    <p class="card__date">2 августа, 2019</p>
+                                    <h4 class="card__title">Национальное достояние - парки</h4>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                </div>
+                                <p class="card__src">медуза</p>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="#" target="_balnk" class="cards-wrapper__link">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="<%=require('./images/cards/04.jpg')%>" class="card__im">
+                            </div>
+
+                            <div class="card__content">
+                                <div class="card__content-wrapper">
+                                    <p class="card__date">2 августа, 2019</p>
+                                    <h4 class="card__title">Национальное достояние - парки</h4>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                </div>
+                                <p class="card__src">медуза</p>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="#" target="_balnk" class="cards-wrapper__link">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="<%=require('./images/cards/05.jpg')%>" class="card__im">
+                            </div>
+
+                            <div class="card__content">
+                                <div class="card__content-wrapper">
+                                    <p class="card__date">2 августа, 2019</p>
+                                    <h4 class="card__title">Национальное достояние - парки</h4>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                </div>
+                                <p class="card__src">медуза</p>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="#" target="_balnk" class="cards-wrapper__link">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="<%=require('./images/cards/01.jpg')%>" class="card__im">
+                            </div>
+
+                            <div class="card__content">
+                                <div class="card__content-wrapper">
+                                    <p class="card__date">2 августа, 2019</p>
+                                    <h4 class="card__title">Национальное достояние - парки</h4>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                </div>
+                                <p class="card__src">медуза</p>
+                            </div>
+
+                        </div>
+                    </a>
 
 
-    <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+                </div>
+
+
+                <button type="submit" class="news__button">Показать еще</button>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="author content">
+
+        <img src="<%=require('./images/photo.jpg')%>" alt="Фото автора" class="author__photo">
+        <div class="author__about">
+            <h2 class="author__title">Об авторе</h2>
+            <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+            <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+        </div>
+
+    </section>
+
+    <footer class="footer content">
+        <p class="footer__copy">&copy; 2020 Supercite</p>
+        <nav class="footer__links">
+            <li class="footer__item">
+                <a href="#" class="footer__link">Главная</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">О проекте</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" target="_blank" class="footer__link">Яндекс.Практикум</a>
+            </li>
+        </nav>
+        <ul class="footer__social">
+            <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                    <img src="<%=require('./images/icons/github.svg')%>" class="footer__icon">
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                    <img src="<%=require('./images/icons/fb.svg')%>" class="footer__icon">
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+    <script type="module" src="<%=htmlWebpackPlugin.files.js %>"></script>
 </body>
 
 </html>
