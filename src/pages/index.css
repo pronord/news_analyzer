@@ -189,7 +189,7 @@ h2 {
 .author__photo {
     max-width: 500px;
     max-height: 500px;
-    border-radius: 1000px;
+    border-radius: 50%;
     margin: 0 56px 0 104px;
 }
 
