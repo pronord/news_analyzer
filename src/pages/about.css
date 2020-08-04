@@ -1,0 +1,397 @@
+@import url('../vendor/fonts.css');
+
+/* a,
+div,
+section,
+li,
+ul,
+nav,
+header,
+form,
+input,
+button,
+footer,
+h1,
+h3,
+img,
+p,
+h2 {
+    border: 1px solid blue;
+} */
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.header_theme_dark {
+    border-bottom: 1px solid #b6bcbf;
+}
+
+.logo {
+    font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin: 30px 0 0 104px;
+    padding: 0;
+}
+
+.logo_theme_dark {
+    color: #1a1b22;
+}
+
+.navigation {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    display: flex;
+    padding-left: 0;
+    height: inherit;
+}
+
+.navigation__item {
+    list-style-type: none;
+    margin: 30px 34px 0 0;
+    display: inline-block;
+}
+
+.navigation__item:last-child {
+    margin: 30px 101px 0 0;
+}
+
+.navigation__item_active_dark {
+    border-bottom: 3px solid #1a1b22;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b6bcbf;
+    display: inline-block;
+}
+
+.navigation__link_active_dark {
+    color: #1a1b22;
+}
+
+.navigation__link:hover {
+    color: #fff;
+}
+
+.navigation__link_theme_dark:hover {
+    color: #1a1b22;
+}
+
+.clients {
+    padding: 80px 0;
+}
+
+.clients__content {
+    margin: 0 0 0 104px;
+    max-width: 815px;
+}
+
+.clients__title {
+    font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1a1b22;
+    margin: 0 0 24px 0;
+}
+
+.clients__text {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1a1b22;
+    margin: 0 0 20px 0;
+}
+
+.clients__text:last-child {
+    margin: 0;
+}
+
+.stack {
+    background-color: #f5f6f7;
+    padding: 80px 0;
+    /* display: flex; */
+}
+
+.stack__content {
+    display: flex;
+    max-width: 1232px;
+    justify-content: space-between;
+}
+
+.stack__title {
+    font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1a1b22;
+    margin: 0 178px 0 0;
+    max-width: 344px;
+}
+
+.stack__container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.stack__item {
+    list-style-type: none;
+    margin: 0 41px 0 0;
+}
+
+.stack__item:last-child {
+    margin: 0 112px 0 0;
+}
+
+.stack__subtitle {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    margin: 0 0 9px 0;
+    color: #1a1b22;
+    text-align: center;
+}
+
+.stack__img {
+    margin: 0;
+}
+
+.author {
+    padding: 80px 0;
+    display: flex;
+    position: relative;
+}
+
+.author__photo {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 1000px;
+    margin: 0 56px 0 104px;
+}
+
+.author__about {
+    max-width: 600px;
+    padding: 50px 0;
+}
+
+.author__title {
+    font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1a1b22;
+    margin: 0 0 24px 0;
+}
+
+.author__text {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1a1b22;
+    margin: 0 0 20px 0;
+}
+
+.author__text:last-child {
+    margin: 0;
+}
+
+.footer {
+    height: 80px;
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.footer__copy {
+    font-size: 16px;
+    line-height: 22px;
+    color: #b6bcbf;
+    margin: 33px 0 25px 104px;
+}
+
+.footer__links {
+    display: flex;
+    position: relative;
+}
+
+.footer__item {
+    list-style-type: none;
+    margin: 30px 40px 28px 0;
+    padding: 0;
+}
+
+.footer__item:last-child {
+    margin: 30px 0 28px 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1a1b22;
+}
+
+.footer__link:hover {
+    opacity: .7;
+}
+
+.footer__social {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 28px 104px 28px 0;
+}
+
+.footer__social-item {
+    margin: 0 24px 0 0;
+    padding: 0;
+}
+
+.footer__social-item:hover {
+    opacity: .7;
+}
+
+.footer__social-item:last-child {
+    margin: 0;
+}
+
+.footer__icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.footer__social-link {
+    margin: 0;
+    padding: 0;
+}
+
+.github {
+    background-color: #f5f6f7;
+    padding: 80px 0;
+}
+
+.github__header {
+    max-width: 1232px;
+    margin: 0 auto 64px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.github__title {
+    font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    max-width: 712px;
+    margin: 0;
+    color: #1a1b22;
+}
+
+.github__link {
+    text-decoration: none;
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 180px;
+    margin: 10px 0 0 0;
+    color: #1a1b22;
+}
+
+.github__link:hover {
+    opacity: .7;
+}
+
+.commit {
+    width: 400px;
+    height: 288px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin: 0 16px 48px 0;
+}
+
+.commit-container__slider {
+    display: flex;
+}
+
+.commit__date {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #b6bcbf;
+    max-width: 200px;
+    margin: 24px 24px 16px 24px;
+}
+
+.commit__package {
+    margin: 0 24px 16px 24px;
+    max-width: inherit;
+    display: flex;
+}
+
+.commit__text {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1a1b22;
+    margin: 0 24px 24px 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+}
+
+.commit__photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 16px 0 0;
+}
+
+.commit__user {
+    font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1a1b22;
+    margin: 0 0 2px 0;
+}
+
+.commit__email {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1a1b22;
+    margin: 0;
+}
