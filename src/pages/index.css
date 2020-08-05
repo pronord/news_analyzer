@@ -525,6 +525,7 @@ h2 {
 }
 
 .news__button:hover {
+    background-color: #f5f6f7;
     box-shadow: 0 10px 35px rgba(49, 49, 49, 0.3);
     transition: box-shadow .5s ease;
 }

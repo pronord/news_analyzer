@@ -331,14 +331,39 @@ h2 {
 
 .commit {
     width: 400px;
+    min-width: 400px;
     height: 288px;
     border-radius: 16px;
     background-color: #fff;
-    margin: 0 16px 48px 0;
+    margin: 0 16px 0 0;
 }
 
 .commit-container__slider {
+    /* max-width: 1440px; */
+    margin: auto;
     display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.commit-container__slider:before,
+.commit-container__slider:after {
+    content: "";
+    width: 88px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.commit-container__slider:before {
+    background: linear-gradient(270deg, rgba(245, 246, 247, 0), #f5f6f7);
+    left: 0;
+}
+
+.commit-container__slider:after {
+    background: linear-gradient(90deg, rgba(245, 246, 247, 0), #f5f6f7);
+    right: 0;
 }
 
 .commit__date {
@@ -368,6 +393,7 @@ h2 {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow-y: hidden;
+    word-wrap: break-word;
 }
 
 .commit__photo {
@@ -394,4 +420,65 @@ h2 {
     line-height: 22px;
     color: #1a1b22;
     margin: 0;
+}
+
+.slider-controls {
+    width: calc(100% - 48px);
+    position: absolute;
+    top: 126px;
+    left: 0;
+    margin: 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-controls__arrow {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+.slider-controls__arrow:hover {
+    background-color: #1a1b22;
+}
+
+.slider-controls__left {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    background-image: url('../images/slider-controls/left.svg');
+}
+
+.slider-controls__right {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    background-image: url('../images/slider-controls/right.svg');
+}
+
+.commit-container__pagination {
+    width: 300px;
+    margin: 48px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.commit-container__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #d1d2d6;
+    margin: 0 8px 0 0;
+}
+
+.commit-container__dot:last-child {
+    margin: 0;
+}
+
+.commit-container__dot_active {
+    background-color: #1a1b22;
 }
