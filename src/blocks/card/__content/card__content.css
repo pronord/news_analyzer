@@ -1,0 +1,8 @@
+.card__content {
+  margin: 20px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 262px;
+  max-width: 352px;
+}

@@ -1,0 +1,11 @@
+@import url('../../vendor/fonts.css');
+@import url('./__item/navigation__item.css');
+@import url('./__item/_active/navigation__item_active.css');
+@import url('./__link/navigation__link.css');
+@import url('./__link/_active/navigation__link_active.css');
+.navigation {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  display: flex;
+  padding-left: 0;
+  height: inherit;
+}

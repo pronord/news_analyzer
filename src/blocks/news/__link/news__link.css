@@ -1,0 +1,13 @@
+.news__link {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #1a1b22;
+  margin: 14px 8px 0 0;
+}
+
+.news__link:hover {
+  opacity: .7;
+}

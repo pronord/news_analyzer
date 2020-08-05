@@ -1,0 +1,9 @@
+@import url('./__link/cards-wrapper__link.css');
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1232px;
+  grid-gap: 16px;
+  margin: 0 auto 64px auto;
+  grid-auto-rows: 3fr;
+}

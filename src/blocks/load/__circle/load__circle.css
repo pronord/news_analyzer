@@ -1,0 +1,17 @@
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.load__circle {
+  display: block;
+  width: 74px;
+  height: 74px;
+  border: 1px solid #f5f6f7;
+  border-bottom-color: #888;
+  border-radius: 50%;
+  box-shadow: rgba(14, 26, 57, 0.2);
+  margin: 0 auto 24px auto;
+  animation: spin .95s infinite linear;
+}

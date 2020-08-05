@@ -1,0 +1,27 @@
+.search__button {
+  width: 168px;
+  height: 64px;
+  border-radius: inherit;
+  background-color: #2f71e5;
+  box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  padding: 0;
+  margin: auto 0;
+  border: none;
+  outline: none;
+}
+
+.search__button:hover {
+  background-color: #347eff;
+}
+
+.search__button:active {
+  background-color: #2a65cc;
+}
+
+.search__button:focus {
+  outline: 2px solid #2a65cc;
+}

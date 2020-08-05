@@ -1,0 +1,9 @@
+.navigation__item {
+  list-style-type: none;
+  margin: 30px 34px 0 0;
+  display: inline-block;
+}
+
+.navigation__item:last-child {
+  margin: 30px 101px 0 0;
+}

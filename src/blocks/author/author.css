@@ -1,0 +1,10 @@
+@import url('../../vendor/fonts.css');
+@import url('./__about/author__about.css');
+@import url('./__photo/author__photo.css');
+@import url('./__text/author__text.css');
+@import url('./__title/author__title.css');
+.author {
+  padding: 80px 0;
+  display: flex;
+  position: relative;
+}
