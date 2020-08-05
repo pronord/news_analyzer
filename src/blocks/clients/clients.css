@@ -1,0 +1,7 @@
+@import url('../../vendor/fonts.css');
+@import url('./__content/clients__content.css');
+@import url('./__text/clients__text.css');
+@import url('./__title/clients__title.css');
+.clients {
+  padding: 80px 0;
+}

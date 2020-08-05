@@ -1,0 +1,8 @@
+.stack__item {
+  list-style-type: none;
+  margin: 0 41px 0 0;
+}
+
+.stack__item:last-child {
+  margin: 0 112px 0 0;
+}

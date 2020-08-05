@@ -1,0 +1,5 @@
+.stack__content {
+  display: flex;
+  max-width: 1232px;
+  justify-content: space-between;
+}

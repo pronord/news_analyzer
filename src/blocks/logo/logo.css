@@ -1,4 +1,5 @@
 @import url('../../vendor/fonts.css');
+@import url('./_theme_dark/logo_theme_dark.css');
 .logo {
   font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
   font-weight: bold;

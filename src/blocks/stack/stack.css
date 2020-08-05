@@ -1,0 +1,11 @@
+@import url('../../vendor/fonts.css');
+@import url('./__container/stack__container.css');
+@import url('./__content/stack__content.css');
+@import url('./__img/stack__img.css');
+@import url('./__item/stack__item.css');
+@import url('./__subtitle/stack__subtitle.css');
+@import url('./__title/stack__title.css');
+.stack {
+  background-color: #f5f6f7;
+  padding: 80px 0;
+}
