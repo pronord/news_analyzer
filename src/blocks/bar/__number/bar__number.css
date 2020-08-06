@@ -1,0 +1,11 @@
+.bar__number {
+  margin: auto 0 auto 6px;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+@import url('../../vendor/fonts.css');
+@import url('./_bottom/percentage_bottom.css');
+@import url('./__text/percentage__text.css');
+.percentage {
+  width: 100%;
+  margin: 0 0 8px 0;
+  display: flex;
+  position: relative;
+}

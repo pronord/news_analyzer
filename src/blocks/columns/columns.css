@@ -1,0 +1,7 @@
+@import url('../../vendor/fonts.css');
+@import url('./__header/columns__header.css');
+@import url('./__text/columns__text.css');
+.columns {
+  width: 100%;
+  display: flex;
+}

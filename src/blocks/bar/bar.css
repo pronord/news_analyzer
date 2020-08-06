@@ -1,0 +1,19 @@
+@import url('../../vendor/fonts.css');
+@import url('./__number/bar__number.css');
+@import url('./_width/bar_width_day-one.css');
+@import url('./_width/bar_width_day-two.css');
+@import url('./_width/bar_width_day-three.css');
+@import url('./_width/bar_width_day-four.css');
+@import url('./_width/bar_width_day-five.css');
+@import url('./_width/bar_width_day-six.css');
+@import url('./_width/bar_width_day-seven.css');
+.bar {
+  height: 24px;
+  background-color: #2f71e5;
+  margin: 0 0 56px 0;
+  display: flex;
+}
+
+.bar:nth-child(9) {
+  margin: 0 0 16px 0;
+}

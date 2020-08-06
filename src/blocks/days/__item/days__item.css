@@ -1,0 +1,12 @@
+.days__item {
+  height: 24px;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a1b22;
+  margin: 40px 0 56px 0;
+}
+
+.days__item:last-child {
+  margin: 0;
+}

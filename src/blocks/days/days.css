@@ -1,0 +1,5 @@
+@import url('../../vendor/fonts.css');
+@import url('./__item/days__item.css');
+.days {
+  width: 104px;
+}

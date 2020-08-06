@@ -1,0 +1,10 @@
+@import url('../../vendor/fonts.css');
+@import url('./__link/breadcrumb__link.css');
+@import url('./__active/breadcrumb__active.css');
+.breadcrumb {
+  max-width: 350px;
+  margin: 40px 0 0 104px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
