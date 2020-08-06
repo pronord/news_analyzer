@@ -1,0 +1,15 @@
+@import url('../../vendor/fonts.css');
+@import url('./__date/commit__date.css');
+@import url('./__email/commit__email.css');
+@import url('./__package/commit__package.css');
+@import url('./__photo/commit__photo.css');
+@import url('./__text/commit__text.css');
+@import url('./__user/commit__user.css');
+.commit {
+  width: 400px;
+  min-width: 400px;
+  height: 288px;
+  border-radius: 16px;
+  background-color: #fff;
+  margin: 0 16px 0 0;
+}

@@ -1,0 +1,14 @@
+.github__link {
+  text-decoration: none;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 180px;
+  margin: 10px 0 0 0;
+  color: #1a1b22;
+}
+
+.github__link:hover {
+  opacity: .7;
+}
