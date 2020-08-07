@@ -12,3 +12,17 @@
   position: relative;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .search__line {
+    width: 448px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .search__line {
+    width: 90%;
+    flex-direction: column;
+  }
+}

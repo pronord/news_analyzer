@@ -25,3 +25,19 @@
 .search__button:focus {
   outline: 2px solid #2a65cc;
 }
+
+@media screen and (max-width: 768px) {
+  .search__button {
+    width: 160px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .search__button {
+    width: 100%;
+    position: absolute;
+    top: 72px;
+    left: 0;
+  }
+}

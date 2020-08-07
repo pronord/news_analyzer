@@ -12,3 +12,9 @@
   padding-left: 0;
   height: inherit;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    margin-right: 16px;
+  }
+}
