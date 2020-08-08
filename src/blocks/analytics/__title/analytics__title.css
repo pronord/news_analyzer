@@ -6,3 +6,9 @@
   color: #1a1b22;
   margin: 0 0 48px 0;
 }
+
+@media screen and (max-width: 480px) {
+  .analytics__title {
+    font-size: 22px;
+  }
+}

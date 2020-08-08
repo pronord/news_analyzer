@@ -10,3 +10,9 @@
 .days__item:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+  .days__item {
+    margin: 18px 0 24px 0;
+  }
+}

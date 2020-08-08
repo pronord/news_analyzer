@@ -1,4 +1,3 @@
-@import url('./_width_85/columns__text_width_85.css');
 .columns__text {
   font-family: "Roboto", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
@@ -9,4 +8,16 @@
   text-transform: uppercase;
   color: #b6bcbf;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .columns__text {
+    width: 104px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .columns__text {
+    width: 80px;
+  }
 }

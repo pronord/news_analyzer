@@ -3,3 +3,9 @@
 .days {
   width: 104px;
 }
+
+@media screen and (max-width: 480px) {
+  .days {
+    width: 80px;
+  }
+}

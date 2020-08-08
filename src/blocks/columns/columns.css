@@ -1,6 +1,8 @@
 @import url('../../vendor/fonts.css');
 @import url('./__header/columns__header.css');
 @import url('./__text/columns__text.css');
+@import url('./__text/_width_date/columns__text_width_date.css');
+@import url('./__text/_width_numbers/columns__text_width_numbers.css');
 .columns {
   width: 100%;
   display: flex;
