@@ -7,3 +7,23 @@
   margin: 0 auto 64px auto;
   grid-auto-rows: 3fr;
 }
+
+@media screen and (max-width: 1024px) {
+  .cards-wrapper {
+    grid-gap: 8px;
+    margin: 0 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 12px 0;
+  }
+}

@@ -6,3 +6,15 @@
   padding: 80px 0;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .load {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .load {
+    padding: 30px 0;
+  }
+}

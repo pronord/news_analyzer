@@ -5,3 +5,17 @@
   line-height: 46px;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .news__title {
+    max-width: 350px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .news__title {
+    margin: 0 0 16px 0;
+  }
+}

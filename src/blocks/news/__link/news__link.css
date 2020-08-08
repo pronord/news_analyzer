@@ -11,3 +11,15 @@
 .news__link:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 768px) {
+  .news__link {
+    margin: 5px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .news__title {
+    margin: 0 0 36px 0;
+  }
+}

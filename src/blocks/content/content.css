@@ -6,6 +6,13 @@
 
 /* @media screen and (max-width: 768px) {
   .content {
-    max-width: 90%;
+    width: 90%;
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .content {
+    margin: 0 16px;
   }
 } */

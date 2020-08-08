@@ -7,3 +7,15 @@
   padding: 80px 0;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .not-found {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .not-found {
+    padding: 30px 0;
+  }
+}

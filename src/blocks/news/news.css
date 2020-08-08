@@ -9,3 +9,15 @@
   background-color: #f5f6f7;
   color: #1a1b22;
 }
+
+@media screen and (max-width: 768px) {
+  .news {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .news {
+    padding: 32px 0 44px 0;
+  }
+}

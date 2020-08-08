@@ -23,3 +23,16 @@
   box-shadow: 0 10px 35px rgba(49, 49, 49, 0.3);
   transition: box-shadow .5s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .news__button {
+    width: 240px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .news__button {
+    width: 100%;
+  }
+}
