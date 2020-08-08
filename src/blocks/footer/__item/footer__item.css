@@ -7,3 +7,21 @@
 .footer__item:last-child {
   margin: 30px 0 28px 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__item {
+    margin: 21px 25px 0 0;
+  }
+  .footer__item:last-child {
+    margin: 21px 5px 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__item {
+    margin: 0 0 24px 0;
+  }
+  .footer__item:last-child {
+    margin: 0
+  }
+}

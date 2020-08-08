@@ -15,3 +15,21 @@
   position: relative;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    height: 64px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
