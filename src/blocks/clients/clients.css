@@ -5,3 +5,15 @@
 .clients {
   padding: 80px 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .clients {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .clients {
+    padding: 16px 0 32px 0;
+  }
+}
