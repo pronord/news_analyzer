@@ -3,3 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .stack__container {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .stack__container {
+    flex-wrap: wrap;
+  }
+}

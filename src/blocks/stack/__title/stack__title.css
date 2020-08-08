@@ -7,3 +7,17 @@
   margin: 0 178px 0 0;
   max-width: 344px;
 }
+
+@media screen and (max-width: 1312px) {
+  .stack__title {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .stack__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
