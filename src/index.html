@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News Analyzer - Главная</title>
+  <meta name="author" content="Слава Юматов">
+  <meta name="description" content="Дипломный проект - Анализатор новостей">
+  <title>NewsAnalyzer - Главная</title>
   <link rel="icon" href="<%=require('./images/favicon.png')%>">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
@@ -30,7 +32,7 @@
         <h2 class="search__title">Что в мире творится?</h2>
         <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <form class="search__line">
-          <input class="search__input" placeholder="Введите тему новости" autofocus>
+          <input class="search__input" placeholder="Введите тему новости" required autofocus>
           <button class="search__button">Искать</button>
         </form>
       </div>
@@ -170,15 +172,9 @@
 
             </div>
           </a>
-
-
         </div>
 
-
         <button type="submit" class="news__button">Показать еще</button>
-
-
-
 
       </div>
     </div>
@@ -211,21 +207,17 @@
     <ul class="footer__social">
       <li class="footer__social-item">
         <a href="https://github.com/pronord/news_analyzer" target="_blank" class="footer__social-link">
-                    <img src="<%=require('./images/icons/github.svg')%>" class="footer__icon">
-                </a>
+          <img src="<%=require('./images/icons/github.svg')%>" class="footer__icon">
+        </a>
       </li>
       <li class="footer__social-item">
         <a href="https://www.facebook.com/slava.yumatov" target="_blank" class="footer__social-link">
-                    <img src="<%=require('./images/icons/fb.svg')%>" class="footer__icon">
-                </a>
+          <img src="<%=require('./images/icons/fb.svg')%>" class="footer__icon">
+        </a>
       </li>
     </ul>
 
   </footer>
-
-
-
-
 
   <script type="module" src="<%=htmlWebpackPlugin.files.js %>"></script>
 </body>
