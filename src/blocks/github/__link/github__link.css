@@ -12,3 +12,9 @@
 .github__link:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 720px) {
+  .github__link {
+    display: none;
+  }
+}

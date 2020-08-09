@@ -11,7 +11,7 @@
 
 <body class="body">
 
-  <!-- <header class="header header_theme_dark content">
+  <header class="header header_theme_dark content">
     <h1 class="logo logo_theme_dark">NewsAnalyzer</h1>
     <nav class="navigation">
 
@@ -23,9 +23,9 @@
       </li>
 
     </nav>
-  </header> -->
+  </header>
 
-  <!-- <section class="clients content">
+  <section class="clients content">
     <div class="clients__content">
       <h2 class="clients__title">Клиентам</h2>
       <p class="clients__text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему научился студент, какими технологиями владеет.</p>
@@ -35,7 +35,7 @@
         операционных систем, у них не будет проблем с отображением. А значит, потенциальная аудитория возрастает.</p>
       <p class="clients__text">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
     </div>
-  </section> -->
+  </section>
 
   <section class="stack">
     <div class="stack__content content">
@@ -62,7 +62,7 @@
 
   </section>
 
-  <!-- <section class="author content">
+  <section class="author content">
 
     <img src="<%=require('./images/photo.jpg')%>" alt="Фото автора" class="author__photo">
     <div class="author__about">
@@ -71,12 +71,12 @@
       <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
     </div>
 
-  </section> -->
+  </section>
 
-  <!-- <section class="github">
+  <section class="github">
     <div class="github__header">
       <h2 class="github__title">История коммитов из GitHub</h2>
-      <a href="#" class="github__link">Откртыть в Github ></a>
+      <a href="https://github.com/pronord/news_analyzer" target="_blank" class="github__link">Откртыть в Github ></a>
     </div>
 
     <div class="commit-container">
@@ -159,15 +159,21 @@
 
       </div>
 
+      <div class="commit-container__pagination">
+        <div class="commit-container__dot"></div>
+        <div class="commit-container__dot commit-container__dot_active"></div>
+        <div class="commit-container__dot"></div>
+      </div>
+
+
+      <a href="https://github.com/pronord/news_analyzer" target="_blank" class="commit-container__button">
+        <p>Открыть в GitHub</p>
+      </a>
+
+
     </div>
 
-    <div class="commit-container__pagination">
-      <div class="commit-container__dot"></div>
-      <div class="commit-container__dot commit-container__dot_active"></div>
-      <div class="commit-container__dot"></div>
-    </div>
-
-  </section> -->
+  </section>
 
   <footer class="footer content">
     <p class="footer__copy">&copy; 2020 PRONORD</p>

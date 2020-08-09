@@ -6,3 +6,10 @@
   color: #1a1b22;
   margin: 0 0 2px 0;
 }
+
+@media screen and (max-width: 425px) {
+  .commit__user {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

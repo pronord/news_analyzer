@@ -1,3 +1,5 @@
+@import url('../../vendor/fonts.css');
 @import url('./__slider/commit-container__slider.css');
 @import url('./__pagination/commit-container__pagination.css');
 @import url('./__dot/commit-container__dot.css');
+@import url('./__button/commit-container__button.css');

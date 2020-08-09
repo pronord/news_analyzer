@@ -11,5 +11,26 @@
   height: 288px;
   border-radius: 16px;
   background-color: #fff;
-  margin: 0 16px 0 0;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .commit {
+    width: 336px;
+    min-width: 336px;
+    height: 242px;
+    margin-right: 8px;
+  }
+  .commit:nth-child(1) {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .commit {
+    min-width: 288px;
+    width: calc(100% - 32px);
+    height: 264px;
+    margin: 0 8px 0 0;
+  }
 }

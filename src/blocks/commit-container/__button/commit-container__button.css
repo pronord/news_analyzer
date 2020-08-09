@@ -1,0 +1,26 @@
+.commit-container__button {
+  width: 288px;
+  height: 56px;
+  margin: 24px auto 0 auto;
+  border-radius: 56px;
+  display: flex;
+  text-decoration: none;
+  border: 2px solid #1a1b22;
+  background-color: #f5f6f7;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1a1b22;
+  justify-content: center;
+}
+
+.commit-container__button:hover {
+  opacity: .7;
+}
+
+@media screen and (min-width: 721px) {
+  .commit-container__button {
+    display: none;
+  }
+}
