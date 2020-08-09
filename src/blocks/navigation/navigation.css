@@ -11,6 +11,7 @@
   display: flex;
   padding-left: 0;
   height: inherit;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
