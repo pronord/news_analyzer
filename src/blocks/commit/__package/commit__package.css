@@ -1,0 +1,11 @@
+.commit__package {
+  margin: 0 24px 16px 24px;
+  max-width: inherit;
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .commit__package {
+    margin: 0 16px 16px 16px;
+  }
+}

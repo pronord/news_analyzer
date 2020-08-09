@@ -1,0 +1,43 @@
+.commit-container__slider {
+  /* max-width: 1440px; */
+  margin: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.commit-container__slider:before,
+.commit-container__slider:after {
+  content: "";
+  width: 88px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.commit-container__slider:before {
+  background: linear-gradient(270deg, rgba(245, 246, 247, 0), #f5f6f7);
+  left: 0;
+}
+
+.commit-container__slider:after {
+  background: linear-gradient(90deg, rgba(245, 246, 247, 0), #f5f6f7);
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .commit-container__slider:before,
+  .commit-container__slider:after {
+    display: none;
+  }
+  .commit-container__slider {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .commit-container__slider {
+    margin-left: 16px;
+  }
+}

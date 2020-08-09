@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Слава Юматов">
+  <meta name="description" content="Дипломный проект - Анализатор новостей">
+  <title>NewsAnalyzer - О проекте</title>
+  <link rel="icon" href="<%=require('./images/favicon.png')%>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+
+<body class="body">
+
+  <header class="header header_theme_dark content">
+    <h1 class="logo logo_theme_dark">NewsAnalyzer</h1>
+    <menu class="navigation">
+
+      <li class="navigation__item">
+        <a href="./index.html" class="navigation__link navigation__link_theme_dark">Главная</a>
+      </li>
+      <li class="navigation__item navigation__item_active_dark">
+        <a href="./about.html" class="navigation__link navigation__link_theme_dark navigation__link_active_dark">О проекте</a>
+      </li>
+
+    </menu>
+  </header>
+
+  <section class="clients content">
+    <div class="clients__content">
+      <h2 class="clients__title">Клиентам</h2>
+      <p class="clients__text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему научился студент, какими технологиями владеет.</p>
+      <p class="clients__text">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+      <p class="clients__text">Карточки с новостями приходят с сервера и обрабатываются асинхронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+      <p class="clients__text">При создании проекта была использована сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых браузерах. Даже если посетители — пользователи старых
+        операционных систем, у них не будет проблем с отображением. А значит, потенциальная аудитория возрастает.</p>
+      <p class="clients__text">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+    </div>
+  </section>
+
+  <section class="stack">
+    <div class="stack__content content">
+      <h2 class="stack__title">Используемые технологии</h2>
+      <ul class="stack__container">
+        <li class="stack__item">
+          <h3 class="stack__subtitle">HTML</h3>
+          <img src="<%=require('./images/tech-icons/html.svg').default%>" alt="Логотип HTML" class="stack__img">
+        </li>
+        <li class="stack__item">
+          <h3 class="stack__subtitle">CSS</h3>
+          <img src="<%=require('./images/tech-icons/css.svg').default%>" alt="Логотип CSS" class="stack__img">
+        </li>
+        <li class="stack__item">
+          <h3 class="stack__subtitle">Java Script</h3>
+          <img src="<%=require('./images/tech-icons/js.svg').default%>" alt="Логотип Java Script" class="stack__img">
+        </li>
+        <li class="stack__item">
+          <h3 class="stack__subtitle">Webpack</h3>
+          <img src="<%=require('./images/tech-icons/webpack.svg').default%>" alt="Логотип Webpack" class="stack__img">
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="author content">
+
+    <img src="<%=require('./images/photo.jpg').default%>" alt="Фото автора" class="author__photo">
+    <div class="author__about">
+      <h2 class="author__title">Об авторе</h2>
+      <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+      <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+    </div>
+
+  </section>
+
+  <section class="github">
+    <div class="github__header">
+      <h2 class="github__title">История коммитов из GitHub</h2>
+      <a href="https://github.com/pronord/news_analyzer" target="_blank" class="github__link">Откртыть в Github ></a>
+    </div>
+
+    <div class="commit-container">
+
+      <div class="commit-container__slider">
+
+        <div class="slider-controls">
+          <div class="slider-controls__arrow">
+            <div class="slider-controls__left"></div>
+          </div>
+          <div class="slider-controls__arrow">
+            <div class="slider-controls__right"></div>
+          </div>
+        </div>
+
+        <div class="commit">
+          <p class="commit__date">18 августа, 2020</p>
+          <div class="commit__package">
+            <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
+            <div>
+              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__email">pronord@yandex.ru</p>
+            </div>
+
+          </div>
+          <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
+        </div>
+
+        <div class="commit">
+          <p class="commit__date">18 августа, 2020</p>
+          <div class="commit__package">
+            <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
+            <div>
+              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__email">pronord@yandex.ru</p>
+            </div>
+
+          </div>
+          <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
+        </div>
+
+        <div class="commit">
+          <p class="commit__date">18 августа, 2020</p>
+          <div class="commit__package">
+            <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
+            <div>
+              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__email">pronord@yandex.ru</p>
+            </div>
+
+          </div>
+          <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
+        </div>
+
+        <div class="commit">
+          <p class="commit__date">18 августа, 2020</p>
+          <div class="commit__package">
+            <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
+            <div>
+              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__email">pronord@yandex.ru</p>
+            </div>
+
+          </div>
+          <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
+        </div>
+
+        <div class="commit">
+          <p class="commit__date">18 августа, 2020</p>
+          <div class="commit__package">
+            <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
+            <div>
+              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__email">pronord@yandex.ru</p>
+            </div>
+
+          </div>
+          <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
+        </div>
+
+      </div>
+
+      <div class="commit-container__pagination">
+        <div class="commit-container__dot"></div>
+        <div class="commit-container__dot commit-container__dot_active"></div>
+        <div class="commit-container__dot"></div>
+      </div>
+
+
+      <a href="https://github.com/pronord/news_analyzer" target="_blank" class="commit-container__button">
+        <p>Открыть в GitHub</p>
+      </a>
+
+
+    </div>
+
+  </section>
+
+  <footer class="footer content">
+    <p class="footer__copy">&copy; 2020 PRONORD</p>
+    <menu class="footer__links">
+      <li class="footer__item">
+        <a href="./index.html" class="footer__link">Главная</a>
+      </li>
+      <li class="footer__item">
+        <a href="./about.html" class="footer__link">О проекте</a>
+      </li>
+      <li class="footer__item">
+        <a href="https://praktikum.yandex.ru" target="_blank" class="footer__link">Яндекс.Практикум</a>
+      </li>
+    </menu>
+    <ul class="footer__social">
+      <li class="footer__social-item">
+        <a href="https://github.com/pronord/news_analyzer" target="_blank" class="footer__social-link">
+                    <img src="<%=require('./images/icons/github.svg').default%>" alt="Иконка Github" class="footer__icon">
+                </a>
+      </li>
+      <li class="footer__social-item">
+        <a href="https://www.facebook.com/slava.yumatov" class="footer__social-link" target="_blank">
+                    <img src="<%=require('./images/icons/fb.svg').default%>" alt="Иконка Facebook" class="footer__icon">
+                </a>
+      </li>
+    </ul>
+
+  </footer>
+
+
+  <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+
+</html>

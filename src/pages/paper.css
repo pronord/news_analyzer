@@ -1,0 +1,14 @@
+@import url('../blocks/content/content.css');
+@import url('../blocks/body/body.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/navigation/navigation.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/analytics/analytics.css');
+@import url('../blocks/bar/bar.css');
+@import url('../blocks/columns/columns.css');
+@import url('../blocks/days/days.css');
+@import url('../blocks/data/data.css');
+@import url('../blocks/percentage/percentage.css');
+@import url('../blocks/search-result/search-result.css');
+@import url('../blocks/breadcrumb/breadcrumb.css');

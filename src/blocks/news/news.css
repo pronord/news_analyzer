@@ -1,0 +1,23 @@
+@import url('../../vendor/fonts.css');
+@import url('./__button/news__button.css');
+@import url('./__content/news__content.css');
+@import url('./__header/news__header.css');
+@import url('./__link/news__link.css');
+@import url('./__title/news__title.css');
+.news {
+  padding: 80px 0;
+  background-color: #f5f6f7;
+  color: #1a1b22;
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .news {
+    padding: 32px 0 44px 0;
+  }
+}

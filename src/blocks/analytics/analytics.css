@@ -1,0 +1,19 @@
+@import url('../../vendor/fonts.css');
+@import url('./__content/analytics__content.css');
+@import url('./__title/analytics__title.css');
+.analytics {
+  padding: 80px 0;
+  background-color: #f5f6f7;
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .analytics {
+    padding: 24px 0;
+  }
+}

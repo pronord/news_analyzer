@@ -1,0 +1,16 @@
+.search-result__text {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  margin: 0 0 4px 0;
+}
+
+.search-result__text:last-child {
+  margin: 0;
+}
+
+.search-result__text_bold {
+  font-weight: 500;
+}

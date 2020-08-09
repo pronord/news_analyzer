@@ -1,0 +1,18 @@
+.days__item {
+  height: 24px;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a1b22;
+  margin: 40px 0 56px 0;
+}
+
+.days__item:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .days__item {
+    margin: 18px 0 24px 0;
+  }
+}

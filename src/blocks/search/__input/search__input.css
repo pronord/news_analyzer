@@ -1,0 +1,37 @@
+.search__input {
+  width: 376px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: auto 5px auto 24px;
+  padding: 0;
+  border: none;
+  outline: none;
+  caret-color: #2f71e5;
+  color: #1a1b22;
+}
+
+.search__input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #b6bcbf;
+}
+
+@media screen and (max-width: 768px) {
+  .search__input {
+    width: 228px;
+    height: 22px;
+  }
+  .search__input::placeholder {
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .search__input {
+    margin: auto 16px auto 16px;
+  }
+  .search__input::placeholder {
+    line-height: 22px;
+  }
+}

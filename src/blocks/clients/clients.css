@@ -1,0 +1,19 @@
+@import url('../../vendor/fonts.css');
+@import url('./__content/clients__content.css');
+@import url('./__text/clients__text.css');
+@import url('./__title/clients__title.css');
+.clients {
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .clients {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .clients {
+    padding: 16px 0 32px 0;
+  }
+}

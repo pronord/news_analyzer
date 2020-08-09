@@ -1,0 +1,21 @@
+@import url('../../vendor/fonts.css');
+@import url('./__item/navigation__item.css');
+@import url('./__item/_active/navigation__item_active.css');
+@import url('./__item/_active/_dark/navigation__item_active_dark.css');
+@import url('./__link/navigation__link.css');
+@import url('./__link/_theme_dark/navigation__link_theme_dark.css');
+@import url('./__link/_active/navigation__link_active.css');
+@import url('./__link/_active/_dark/navigation__link_active_dark.css');
+.navigation {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  display: flex;
+  padding-left: 0;
+  height: inherit;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    margin-right: 16px;
+  }
+}

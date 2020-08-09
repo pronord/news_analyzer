@@ -1,0 +1,20 @@
+.footer__social {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  order: 3;
+  margin: 28px 104px 28px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__social {
+    margin: 20px 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__social {
+    order: 2;
+    margin: 20px 16px 0 0;
+  }
+}

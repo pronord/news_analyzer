@@ -1,0 +1,19 @@
+.news__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 64px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .news__header {
+    margin: 0 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .news__header {
+    flex-direction: column;
+    margin: 0 0 36px 0;
+  }
+}

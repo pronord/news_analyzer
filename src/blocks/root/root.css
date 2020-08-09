@@ -1,0 +1,28 @@
+.root {
+  background-image: url('../../images/search-backgroud.jpg');
+  background-size: cover;
+}
+
+@media screen and (max-width: 490px) {
+  .root {
+    height: 483px;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .root {
+    height: 507px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .root {
+    height: 507px;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .root {
+    height: 531px;
+  }
+}

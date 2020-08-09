@@ -1,0 +1,10 @@
+.card__src {
+  font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b6bcbf;
+  margin: 10px 0 0 0;
+}

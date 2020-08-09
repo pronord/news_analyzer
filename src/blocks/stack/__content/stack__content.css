@@ -1,0 +1,23 @@
+.stack__content {
+  display: flex;
+  max-width: 1232px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1312px) {
+  .stack__content {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .stack__content {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .stack__content {
+    margin: 0 16px;
+  }
+}

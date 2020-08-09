@@ -1,0 +1,20 @@
+.percentage__text {
+  width: 25%;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b6bcbf;
+  margin: 0;
+}
+
+.percentage__text:last-child {
+  width: 25%;
+  fill: transparent;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

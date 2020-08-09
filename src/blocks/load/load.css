@@ -1,0 +1,20 @@
+@import url('../../vendor/fonts.css');
+@import url('./__circle/load__circle.css');
+@import url('./__text/load__text.css');
+.load {
+  background-color: #f5f6f7;
+  padding: 80px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .load {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .load {
+    padding: 30px 0;
+  }
+}

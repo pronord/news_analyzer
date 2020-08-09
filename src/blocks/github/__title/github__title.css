@@ -1,0 +1,16 @@
+.github__title {
+  font-family: "Roboto Slab", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  max-width: 595px;
+  margin: 0 30px 0 0;
+  color: #1a1b22;
+}
+
+@media screen and (max-width: 1024px) {
+  .github__title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+}
+
+.footer__link:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__link {
+    order: 1;
+    min-width: 184px;
+    margin: 0 0 48px 0;
+    /* line-height: 48px; */
+    flex-direction: column;
+  }
+}

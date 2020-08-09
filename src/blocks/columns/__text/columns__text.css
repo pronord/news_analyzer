@@ -1,0 +1,23 @@
+.columns__text {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  height: 44px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  color: #b6bcbf;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .columns__text {
+    width: 104px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .columns__text {
+    width: 80px;
+  }
+}

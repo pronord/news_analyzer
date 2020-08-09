@@ -1,0 +1,21 @@
+.search__description {
+  max-width: 545px;
+  margin: 0 0 64px 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .search__description {
+    margin: 0 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .search__description {
+    margin: 0 0 64px 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

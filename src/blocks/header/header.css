@@ -1,0 +1,20 @@
+@import url('./_theme_dark/header_theme_dark.css');
+.header {
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 64px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .header {
+    height: 56px;
+  }
+}

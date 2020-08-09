@@ -1,0 +1,21 @@
+.card__content {
+  margin: 20px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 262px;
+  max-width: 352px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__content {
+    margin: 16px 16px 16px 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card__content {
+    max-width: 468px;
+    margin: 16px 16px 16px 16px;
+  }
+}
