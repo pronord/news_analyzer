@@ -10,6 +10,6 @@
 @media screen and (max-width: 425px) {
   .commit__user {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
   }
 }

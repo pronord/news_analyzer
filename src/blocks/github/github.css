@@ -5,6 +5,7 @@
 .github {
   background-color: #f5f6f7;
   padding: 80px 0;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {

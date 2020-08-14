@@ -81,25 +81,28 @@
       <a href="https://github.com/pronord/news_analyzer" target="_blank" class="github__link">Откртыть в Github ></a>
     </div>
 
-    <div class="commit-container">
 
-      <div class="commit-container__slider">
+    <div class="swiper-container">
 
-        <div class="slider-controls">
-          <div class="slider-controls__arrow">
+
+      <div class="slider-controls">
+        <button class="swiper-button-prev slider-controls__arrow">
             <div class="slider-controls__left"></div>
-          </div>
-          <div class="slider-controls__arrow">
+          </button>
+        <button class="swiper-button-next slider-controls__arrow">
             <div class="slider-controls__right"></div>
-          </div>
-        </div>
+          </button>
+      </div>
 
-        <div class="commit">
+
+      <div class="swiper-wrapper commit-container__slider">
+
+        <div class="swiper-slide commit">
           <p class="commit__date">18 августа, 2020</p>
           <div class="commit__package">
             <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
             <div>
-              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__user">Slava Yumatov</p>
               <p class="commit__email">pronord@yandex.ru</p>
             </div>
 
@@ -107,12 +110,12 @@
           <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
         </div>
 
-        <div class="commit">
+        <div class="swiper-slide commit">
           <p class="commit__date">18 августа, 2020</p>
           <div class="commit__package">
             <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
             <div>
-              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__user">Володя Добровольский</p>
               <p class="commit__email">pronord@yandex.ru</p>
             </div>
 
@@ -120,12 +123,12 @@
           <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
         </div>
 
-        <div class="commit">
+        <div class="swiper-slide commit">
           <p class="commit__date">18 августа, 2020</p>
           <div class="commit__package">
             <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
             <div>
-              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__user">Евгений Бояркин</p>
               <p class="commit__email">pronord@yandex.ru</p>
             </div>
 
@@ -133,12 +136,12 @@
           <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
         </div>
 
-        <div class="commit">
+        <div class="swiper-slide commit">
           <p class="commit__date">18 августа, 2020</p>
           <div class="commit__package">
             <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
             <div>
-              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__user">Дамир Вахитов</p>
               <p class="commit__email">pronord@yandex.ru</p>
             </div>
 
@@ -146,12 +149,12 @@
           <p class="commit__text">CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb and produce output depending on what you type in the abb</p>
         </div>
 
-        <div class="commit">
+        <div class="swiper-slide commit">
           <p class="commit__date">18 августа, 2020</p>
           <div class="commit__package">
             <img src="<%=require('./images/photo.jpg').default%>" alt="Фото юзера" class="commit__photo">
             <div>
-              <p class="commit__user">Слава Юматов</p>
+              <p class="commit__user">Алексей Батов</p>
               <p class="commit__email">pronord@yandex.ru</p>
             </div>
 
@@ -161,11 +164,7 @@
 
       </div>
 
-      <div class="commit-container__pagination">
-        <div class="commit-container__dot"></div>
-        <div class="commit-container__dot commit-container__dot_active"></div>
-        <div class="commit-container__dot"></div>
-      </div>
+      <div class="swiper-pagination commit-container__pagination"></div>
 
 
       <a href="https://github.com/pronord/news_analyzer" target="_blank" class="commit-container__button">
@@ -174,6 +173,7 @@
 
 
     </div>
+
 
   </section>
 
