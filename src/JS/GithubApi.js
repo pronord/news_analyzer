@@ -1,4 +1,4 @@
-export class GithubApi {
+export default class GithubApi {
   constructor(baseUrl) {
     this.baseUrl = baseUrl;
   }

@@ -2,7 +2,6 @@ export class CommitList {
   constructor(container, createCommit) {
     this.container = container;
     this.createCommit = createCommit;
-    this.commitlist = null;
   }
 
   _addCommit(date, photo, name, email, text) {

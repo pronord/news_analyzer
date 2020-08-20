@@ -1,11 +1,8 @@
 import '../src/pages/about.css';
 import Swiper, { Navigation, Pagination } from 'swiper';
-import { Commit } from './JS/Commit.js';
+import Commit from './JS/Commit.js';
 import { CommitList } from './JS/CommitList.js';
-import { GithubApi } from './JS/GithubApi.js';
-// базовая версия с добавление модулей Навигации и Пагинации:
-
-
+import GithubApi from './JS/GithubApi.js';
 
 (function() {
 
@@ -80,30 +77,12 @@ import { GithubApi } from './JS/GithubApi.js';
     })
 
 
-
-
   /** КОЛБЭКИ */
 
   // создаю колбэк, возвращающий разметку коммита
   function createCommit(date, photo, name, email, text) {
     return new Commit(date, photo, name, email, text).create();
   }
-
-
-
-
-
-  console.log(githubApi.getCommits());
-
-
-
-
-
-
-
-
-
-
 
 
 })()

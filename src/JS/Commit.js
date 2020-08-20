@@ -1,4 +1,4 @@
-export class Commit {
+export default class Commit {
   constructor(date, photo, name, email, text) {
     this.date = date;
     this.photo = photo;
@@ -6,7 +6,6 @@ export class Commit {
     this.email = email;
     this.text = text;
     this.commit = 0;
-    // this.dateToString = dateToString;
   }
 
   _getTeplate() {
@@ -43,10 +42,9 @@ export class Commit {
   }
 
   create() {
-    const stringDate = this.dateToString(this.date);
     this.commit = this._getTeplate();
 
-    this.commit.querySelector('.commit__date').textContent = stringDate;
+    this.commit.querySelector('.commit__date').textContent = this.dateToString(this.date);
     this.commit.querySelector('.commit__user').textContent = this.name;
     this.commit.querySelector('.commit__email').textContent = this.email;
     this.commit.querySelector('.commit__text').textContent = this.text;

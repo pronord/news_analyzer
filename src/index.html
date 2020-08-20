@@ -31,22 +31,22 @@
       <div class="search__content">
         <h2 class="search__title">Что в мире творится?</h2>
         <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
-        <form class="search__line">
-          <input class="search__input" placeholder="Введите тему новости" required autofocus>
+        <form name="search" class="search__line" novalidate>
+          <input name="keyword" class="search__input" placeholder="Введите тему новости" required autofocus>
           <button class="search__button">Искать</button>
         </form>
       </div>
     </section>
   </div>
 
-  <section class="load">
+  <section class="load invisible">
     <div class="content">
       <i class="load__circle"></i>
       <p class="load__text">Идет поиск новостей...</p>
     </div>
   </section>
 
-  <section class="not-found">
+  <section class="not-found invisible">
     <div class="content">
       <img src="<%=require('./images/icons/not-found.svg').default%>" alt="Ничего не найдено" class="not-found__pic">
       <h3 class="not-found__title">Ничего не найдено</h3>
@@ -63,116 +63,7 @@
           <a href="./paper.html" class="news__link">Посмотреть аналитику ></a>
         </div>
 
-        <div class="cards-wrapper">
-          <a href="#" target="_blank" class="cards-wrapper__link">
-            <div class="card">
-              <div class="card__image">
-                <img src="<%=require('./images/cards/01.jpg').default%>" alt="Изображение новости" class="card__im">
-              </div>
-
-              <div class="card__content">
-                <div class="card__content-wrapper">
-                  <p class="card__date">2 августа, 2019</p>
-                  <h4 class="card__title">Национальное достояние - парки</h4>
-                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе Америка отмечала важный юбилей: сто лет назад здесь
-                    начала складываться система национальных парков – охраняемых территорий,</p>
-                </div>
-                <p class="card__src">медуза</p>
-              </div>
-
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="cards-wrapper__link">
-            <div class="card">
-              <div class="card__image">
-                <img src="<%=require('./images/cards/02.jpg').default%>" alt="Изображение новости" class="card__im">
-              </div>
-
-              <div class="card__content">
-                <div class="card__content-wrapper">
-                  <p class="card__date">2 августа, 2019</p>
-                  <h4 class="card__title">Национальное достояние - парки</h4>
-                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                </div>
-                <p class="card__src">медуза</p>
-              </div>
-
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="cards-wrapper__link">
-            <div class="card">
-              <div class="card__image">
-                <img src="<%=require('./images/cards/03.jpg').default%>" alt="Изображение новости" class="card__im">
-              </div>
-
-              <div class="card__content">
-                <div class="card__content-wrapper">
-                  <p class="card__date">2 августа, 2019</p>
-                  <h4 class="card__title">Национальное достояние - парки</h4>
-                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                </div>
-                <p class="card__src">медуза</p>
-              </div>
-
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="cards-wrapper__link">
-            <div class="card">
-              <div class="card__image">
-                <img src="<%=require('./images/cards/04.jpg').default%>" alt="Изображение новости" class="card__im">
-              </div>
-
-              <div class="card__content">
-                <div class="card__content-wrapper">
-                  <p class="card__date">2 августа, 2019</p>
-                  <h4 class="card__title">Национальное достояние - парки</h4>
-                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                </div>
-                <p class="card__src">медуза</p>
-              </div>
-
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="cards-wrapper__link">
-            <div class="card">
-              <div class="card__image">
-                <img src="<%=require('./images/cards/05.jpg').default%>" alt="Изображение новости" class="card__im">
-              </div>
-
-              <div class="card__content">
-                <div class="card__content-wrapper">
-                  <p class="card__date">2 августа, 2019</p>
-                  <h4 class="card__title">Национальное достояние - парки</h4>
-                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                </div>
-                <p class="card__src">медуза</p>
-              </div>
-
-            </div>
-          </a>
-
-          <a href="#" target="_blank" class="cards-wrapper__link">
-            <div class="card">
-              <div class="card__image">
-                <img src="<%=require('./images/cards/01.jpg').default%>" alt="Изображение новости" class="card__im">
-              </div>
-
-              <div class="card__content">
-                <div class="card__content-wrapper">
-                  <p class="card__date">2 августа, 2019</p>
-                  <h4 class="card__title">Национальное достояние - парки</h4>
-                  <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                </div>
-                <p class="card__src">медуза</p>
-              </div>
-
-            </div>
-          </a>
-        </div>
+        <div class="cards-wrapper"></div>
 
         <button type="submit" class="news__button">Показать еще</button>
 
