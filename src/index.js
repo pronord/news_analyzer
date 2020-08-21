@@ -52,12 +52,12 @@ import { Section } from './JS/Section.js';
     dataStorage.saveData('step', step);
     section.hide(load);
 
+    searchInput.value = dataStorage.getData('searchInput');
+    newsCardList.render(arrStorage.slice(0, 3));
+    section.show(searchResult);
 
     if (arrStorage.length > 3) {
       section.show(moreBtn);
-      searchInput.value = dataStorage.getData('searchInput');
-      newsCardList.render(arrStorage.slice(0, 3));
-      section.show(searchResult);
     } else {
       section.hide(moreBtn);
     }
@@ -70,12 +70,12 @@ import { Section } from './JS/Section.js';
     section.hide(searchResult);
     section.show(load);
 
+    dataStorage.clearData();
     const newsApi = new NewsApi(searchInput.value, config.baseUrl, config.newsApiKey);
 
     newsApi.getNews()
       .then(res => {
         const { totalResults, articles } = res;
-        localStorage.clear()
         if (!articles.length) {
           section.hide(load);
           section.show(notFound);
