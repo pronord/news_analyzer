@@ -48,19 +48,25 @@ import { Section } from './JS/Section.js';
 
   function onload() {
     const arrStorage = dataStorage.getData('articles');
-    section.hide(searchResult);
-    dataStorage.saveData('step', step);
-    section.hide(load);
 
-    searchInput.value = dataStorage.getData('searchInput');
-    newsCardList.render(arrStorage.slice(0, 3));
-    section.show(searchResult);
-
-    if (arrStorage.length > 3) {
-      section.show(moreBtn);
+    if (!arrStorage) {
+      section.hide(searchResult);
     } else {
-      section.hide(moreBtn);
+      section.hide(searchResult);
+      dataStorage.saveData('step', step);
+      section.hide(load);
+
+      searchInput.value = dataStorage.getData('searchInput');
+      newsCardList.render(arrStorage.slice(0, 3));
+      section.show(searchResult);
+
+      if (arrStorage.length > 3) {
+        section.show(moreBtn);
+      } else {
+        section.hide(moreBtn);
+      }
     }
+
   }
 
   function showNews() {
