@@ -92,7 +92,7 @@ import { Section } from './JS/Section.js';
         section.hide(load);
         section.show(notFound);
         document.querySelector('.not-found__title').textContent = 'Ошибка!';
-        document.querySelector('.not-found__subtitle').textContent = err;
+        document.querySelector('.not-found__subtitle').textContent = 'Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз';
       })
 
   }

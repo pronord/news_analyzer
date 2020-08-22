@@ -36,8 +36,8 @@ export class NewsCard {
     return element.firstChild;
   }
 
-  dateToString(x) {
-    const time = new Date(x)
+  dateToString(date) {
+    const time = new Date(date)
 
     const year = time.getFullYear();
     const options = {

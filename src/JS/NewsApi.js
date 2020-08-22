@@ -12,10 +12,10 @@ export class NewsApi {
     return Promise.reject(`Ошибка: ${res.status}`);
   }
 
-  getDates() {
+  _getDates() {
     const today = new Date();
     const sevenDaysAgo = new Date();
-    sevenDaysAgo.setDate(today.getDate() - 7);
+    sevenDaysAgo.setDate(today.getDate() - 6);
 
     return {
       to: today.toISOString(),
@@ -24,7 +24,7 @@ export class NewsApi {
   }
 
   getNews() {
-    return fetch(`${this.baseUrl}${this.keyword}&pageSize=100&sortBy=publishedAt&from=${this.getDates().from}&to=${this.getDates().to}&apiKey=${this.apiKey}`, {
+    return fetch(`${this.baseUrl}${this.keyword}&pageSize=100&sortBy=publishedAt&from=${this._getDates().from}&to=${this._getDates().to}&apiKey=${this.apiKey}`, {
         method: 'GET'
       })
       .then(res => {
