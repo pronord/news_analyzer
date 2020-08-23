@@ -1,8 +1,8 @@
-import '../src/pages/about.css';
+import '../../pages/about.css';
 import Swiper, { Navigation, Pagination } from 'swiper';
-import Commit from './JS/Commit.js';
-import { CommitList } from './JS/CommitList.js';
-import GithubApi from './JS/GithubApi.js';
+import Commit from '../Commit.js';
+import { CommitList } from '../CommitList.js';
+import GithubApi from '../GithubApi.js';
 
 (function() {
 

@@ -32,7 +32,8 @@
         <h2 class="search__title">Что в мире творится?</h2>
         <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <form name="search" class="search__line" novalidate>
-          <input name="keyword" class="search__input" placeholder="Введите тему новости" required autofocus>
+          <input name="keyword" id="keyword" class="search__input" placeholder="Введите тему новости" required>
+          <span id="keyword-error" class="error"></span>
           <button class="search__button">Искать</button>
         </form>
       </div>
@@ -76,8 +77,9 @@
     <img src="<%=require('./images/photo.jpg').default%>" alt="Фото автора" class="author__photo">
     <div class="author__about">
       <h2 class="author__title">Об авторе</h2>
-      <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
-      <p class="author__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+      <p class="author__text">Меня зовут Слава Юматов. Я начинающий фронтенд разработчик. Я владею HTML, CSS, JavaScript и Webpack. Владею методологией БЭМ.</p>
+      <p class="author__text">На курсах Яндекс Практикума я изучил, что такое HTML, CSS, JavaScript. Использовал систему контроля версий git и публиковал свои проекты на GitHub. Собирал проекты Webpack’ом и настраивал его конфигурацию. В одном из проектов я использовал API,
+        для получения, обработки и отправки информации на сервер. </p>
     </div>
 
   </section>

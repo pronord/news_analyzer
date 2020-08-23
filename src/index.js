@@ -4,6 +4,7 @@ import { NewsCardList } from './JS/NewsCardList.js';
 import { NewsApi } from './JS/NewsApi';
 import { DataStorage } from './JS/DataStorage.js';
 import { Section } from './JS/Section.js';
+import { FormValidator } from './JS/FormValidator.js';
 
 
 (function() {
@@ -28,6 +29,7 @@ import { Section } from './JS/Section.js';
   /** ИНСТАНСЫ */
   //контейнер для новостей
   const newsCardList = new NewsCardList(newsCardsContainer, createNewsCard);
+  const formValidationSearch = new FormValidator(formSearch);
   //Апи новостей
 
   //local storage
@@ -97,6 +99,7 @@ import { Section } from './JS/Section.js';
       .catch(err => {
         section.hide(load);
         section.show(notFound);
+        console.log('Ошибка. Запрос не выполнен: ', err);
         document.querySelector('.not-found__title').textContent = 'Ошибка!';
         document.querySelector('.not-found__subtitle').textContent = 'Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз';
       })
@@ -118,6 +121,10 @@ import { Section } from './JS/Section.js';
     clearNews();
     showNews();
   });
+
+  formSearch.addEventListener('input', (e) => {
+    formValidationSearch.setEventListeners(e);
+  }, true);
 
 
 

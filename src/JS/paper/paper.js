@@ -1,9 +1,9 @@
-import '../src/pages/paper.css';
-import { DataStorage } from './JS/DataStorage.js';
-import { Day } from './JS/Day.js';
-import { DaysList } from './JS/DaysList.js';
-import { Bar } from './JS/Bar.js';
-import { BarList } from './JS/BarList.js';
+import '../../pages/paper.css';
+import { DataStorage } from '../DataStorage.js';
+import { Day } from '../Day.js';
+import { DaysList } from '../DaysList.js';
+import { Bar } from '../Bar.js';
+import { BarList } from '../BarList.js';
 
 (function() {
   const dataStorage = new DataStorage();
