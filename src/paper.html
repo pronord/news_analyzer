@@ -7,7 +7,7 @@
   <meta name="author" content="Слава Юматов">
   <meta name="description" content="Дипломный проект - Анализатор новостей">
   <title>NewsAnalyzer - Статистика</title>
-  <link rel="icon" href="<%=require('./images/favicon.png')%>">
+  <link rel="icon" href="<%=require('./images/favicon.png').default%>">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 
@@ -39,7 +39,7 @@
     <div class="search-result__container">
       <h2 class="search-result__title">Вы спросили: «Путешествия»</h2>
       <p class="search-result__text">Новостей за неделю: <span class="search-result__text_bold">34 324</span></p>
-      <p class="search-result__text">Упоминаний в загаловках: <span class="search-result__text_bold">235</span></p>
+      <p class="search-result__text">Упоминаний в загаловках: <span id="keyword" class="search-result__text_bold">235</span></p>
     </div>
 
   </section>
@@ -53,17 +53,10 @@
             <div class="columns__header">
               <p class="columns__text columns__text_width_date">дата (август)</p>
             </div>
-            <p class="days__item">19, пн</p>
-            <p class="days__item">20, вт</p>
-            <p class="days__item">21, ср</p>
-            <p class="days__item">22, чт</p>
-            <p class="days__item">23, пт</p>
-            <p class="days__item">24, сб</p>
-            <p class="days__item">25, вс</p>
           </div>
           <div class="data">
             <div class="columns__header">
-              <p class="columns__text columns__text_width_numbers">кол-во упоминаний</p>
+              <p class="columns__text columns__text_width_numbers">кол-во упоминаний, % </p>
             </div>
 
             <div class="percentage">
@@ -74,27 +67,7 @@
               <p class="percentage__text">100</p>
             </div>
 
-            <div class="bar bar_width_day-one">
-              <p class="bar__number">15</p>
-            </div>
-            <div class="bar bar_width_day-two">
-              <p class="bar__number">18</p>
-            </div>
-            <div class="bar bar_width_day-three">
-              <p class="bar__number">11</p>
-            </div>
-            <div class="bar bar_width_day-four">
-              <p class="bar__number">39</p>
-            </div>
-            <div class="bar bar_width_day-five">
-              <p class="bar__number">45</p>
-            </div>
-            <div class="bar bar_width_day-six">
-              <p class="bar__number">73</p>
-            </div>
-            <div class="bar bar_width_day-seven">
-              <p class="bar__number">34</p>
-            </div>
+            <div id="bars"></div>
 
             <div class="percentage percentage_bottom">
               <p class="percentage__text">0</p>

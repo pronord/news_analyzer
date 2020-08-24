@@ -1,7 +1,8 @@
 .commit__photo {
-  width: 64px;
+  min-width: 64px;
   height: 64px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 16px 0 0;
+  background-size: cover;
 }

@@ -5,6 +5,9 @@
   border-radius: 50%;
   background-repeat: no-repeat;
   z-index: 6;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .slider-controls__arrow:hover {

@@ -8,10 +8,11 @@
 .commit {
   width: 400px;
   min-width: 400px;
+  max-width: 400px;
   height: 288px;
   border-radius: 16px;
   background-color: #fff;
-  margin-right: 16px;
+  /* margin-right: 16px; */
 }
 
 @media screen and (max-width: 768px) {

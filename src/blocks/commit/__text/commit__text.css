@@ -11,3 +11,15 @@
   overflow-y: hidden;
   word-wrap: break-word;
 }
+
+@media screen and (max-width: 768px) {
+  .commit__text {
+    -webkit-line-clamp: 3;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .commit__text {
+    -webkit-line-clamp: 4;
+  }
+}
